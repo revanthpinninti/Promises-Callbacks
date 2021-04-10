@@ -6,7 +6,7 @@ getUser(1, (user) => {
     })
   })
 });
-console.log('After');
+console.log('After This line');
 
 function getUser(id, callback) {
   setTimeout(() => {
